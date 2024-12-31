@@ -2,5 +2,11 @@
   "name": "aggie-utils",
   "version": "0.0.2",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
   "license": "MIT"
 }
